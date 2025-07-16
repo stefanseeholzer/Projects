@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CarsECommerce</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="csrf-token" content="iq0YhaoDPYtE5HfJx3pckj-HEIIL6IX8VlzLjeSuf_S2kZ3Tma2YRNtXzu30eOizbKtUPzWQO5c9ZUknuXE2yA">
+
+    <link rel="stylesheet" href="/assets/application-2bdd347638b8564d06014f63e9c389f6648641f03cc9b80c6dd8838210c40eb8.css" data-turbo-track="reload">
+    <%= javascript_importmap_tags %>
+    <script src="https://js.stripe.com/v3"></script>
+  </head>
+
+  <body>
+    <header>
+      <%= render 'shared/menu' %>
+    </header>
+    <% flash.each do |key, value| %>
+      <div class="flash <%= key %>">
+        <%= value %>
+      </div>
+    <% end %>
+    <%= yield %>
+  </body>
+</html>

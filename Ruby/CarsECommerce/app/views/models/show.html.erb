@@ -1,0 +1,16 @@
+<div class="car-title">
+    <h1><%= @model.name %></h1>
+    <h3><%= @model.description %></h3>
+</div>
+
+<div class="pagination-container">
+    <%= paginate @cars %>
+</div>
+<br/>
+
+<div>
+    <h2><%= @model.name %> Cars</h2>
+    <% @cars.each do |car| %>
+        <%= render partial: 'car_card', locals: { car: car } %>
+    <% end %>
+</div>

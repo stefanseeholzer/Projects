@@ -1,0 +1,17 @@
+<div class="car-card">
+    <%= render partial: 'shared/car_image', locals: { car: car }  %>
+    <div>
+        <h3>Name</h3>
+        <p><%= link_to car.name, car_path(car) %></p>
+        <h3>Description</h3>
+        <p><%= car.description %></p>
+        <h3>Price</h3>
+        <p><%= car.price %></p>
+        <h3>Quantity</h3>
+        <p><%= car.quantity %></p>
+        <% if car.car_model %>
+            <h3>Make/Model</h3>
+            <p><%= car.car_model.car_make.name %> <%= car.car_model.name %></p>
+        <% end %>
+    </div>
+</div>

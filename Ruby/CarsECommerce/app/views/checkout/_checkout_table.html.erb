@@ -1,0 +1,48 @@
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @cart_items.each do |car, quantity| %>
+      <tr>
+        <td><%= car.name %></td>
+        <td><%= quantity %></td>
+        <td><%= car.price %></td>
+        <td><%= car.price * quantity %></td>
+      </tr>
+    <% end %>
+    <tr>
+      <td colspan="3">Subtotal:</td>
+      <td><%= @subtotal %></td>
+    </tr>
+    <tr>
+      <td colspan="3">GST:</td>
+      <td id="gst_value"><%= @taxes[0] %></td>
+    </tr>
+    <tr>
+      <td colspan="3">PST:</td>
+      <td id="pst_value"><%= @taxes[1] %></td>
+    </tr>
+    <tr>
+      <td colspan="3">HST:</td>
+      <td id="hst_value"><%= @taxes[2] %></td>
+    </tr>
+    <tr>
+      <td colspan="3">Total:</td>
+      <td id="total_value"><%= @total %></td>
+    </tr>
+    <tr>
+      <td colspan="3">Address:</td>
+      <td id="address_value"><%= @address %></td>
+    </tr>
+    <tr>
+      <td colspan="3">Province:</td>
+      <td id="province_value"><%= @province_selected %></td>
+    </tr>
+  </tbody>
+</table>

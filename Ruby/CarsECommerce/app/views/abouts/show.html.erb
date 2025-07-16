@@ -1,0 +1,6 @@
+<h1>About Us</h1>
+<% if @about && @about.content %>
+    <div>
+        <h4><%= simple_format(@about.content) %></h4>
+    </div>
+<% end %>

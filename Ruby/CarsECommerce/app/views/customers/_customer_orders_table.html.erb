@@ -1,0 +1,26 @@
+<table>
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Cars</th>
+      <th>Taxed</th>
+      <th>Total before taxes</th>
+      <th>Total after taxes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @orders.each do |order| %>
+      <tr>
+        <td rowspan="<%= order.order_items.count + 1 %>"><%= order.id %></td>
+      </tr>
+          <% order.order_items.each do |item| %>
+            <tr>
+                <td><%= item.car.name %></td>
+                <td><%= number_to_currency(item.taxes) %></td>
+                <td><%= number_to_currency(item.car_price) %></td>
+                <td><%= number_to_currency(item.car_price + item.taxes) %></td>
+            </tr>
+          <% end %>
+    <% end %>
+  </tbody>
+</table>

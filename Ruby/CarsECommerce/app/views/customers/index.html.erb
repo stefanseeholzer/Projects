@@ -1,0 +1,28 @@
+<h1>Welcome, <%= current_customer.name %></h1>
+
+<h2>Your Past Orders</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Products</th>
+      <th>Taxes</th>
+      <th>Grand Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @orders.each do |order| %>
+      <tr>
+        <td><%= order.id %></td>
+        <td>
+          <% order.order_items.each do |item| %>
+            <%= item.product.name %>
+            <br>
+          <% end %>
+        </td>
+        <td><%= number_to_currency(order.total_taxes) %></td>
+        <td><%= number_to_currency(order.total_amount) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

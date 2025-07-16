@@ -1,0 +1,31 @@
+<h1>Contact Us</h1>
+<div>
+    <h3>Hours of Operation</h3>
+    <% unless @contact.blank? %>
+        <p><%= @contact.hours_of_operation %></p>
+    <% end %>
+</div>
+<div>
+    <h3>Phone Number</h3>
+    <% unless @contact.blank? %>
+        <p><%= @contact.phone_number %></p>
+    <% end %>
+</div>
+<div>
+    <h3>Email</h3>
+    <% unless @contact.blank? %>
+        <p><%= @contact.email %></p>
+    <% end %>
+</div>
+<% if @contact && @contact.instagram != "" %>
+    <div>
+        <h3>Instagram</h3>
+        <p><%= @contact.instagram %></p>
+    </div>
+<% end %>
+<% if @contact && @contact.twitter != "" %>
+    <div>
+        <h3>Twitter</h3>
+        <p><%= @contact.twitter %></p>
+    </div>
+<% end %>

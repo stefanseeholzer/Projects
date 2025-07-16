@@ -1,0 +1,59 @@
+<div class="cars-title">
+    <h1>Little Motors</h1>
+    <h2>Car inventory</h2>
+</div>
+
+<div class="pagination-container">
+    <%= paginate @cars %>
+</div>
+<br/>
+
+<div>
+    <%= form_with(url: cars_path, local: true, method: "get") do %>
+        <div>
+            <div>
+                <input type="text" name="text_search" placeholder="Search by Name/Description" value="<%= params[:text_search] %>"%>
+            </div>
+            <div>
+                <label>Select a Model</label>
+                <select class="select" name="model">
+                    <option value="">None</option>
+                    <% @all_cars.map { |car| car.car_model }.uniq.each do |model| %>
+                        <option value="<%= model.id %>" <%= 'selected' if params[:model].to_s == model.id.to_s %>>
+                            <%= model.name %>
+                        </option>
+                    <% end %>
+                </select>
+            </div>
+            <div>
+                <label><input type="radio" name="car_filter" value="all" <%= 'checked' %>> All Cars</label>
+            </div>
+            <div>
+                <label><input type="radio" name="car_filter" value="new" <%= 'checked' if params[:car_filter] == 'new' %>> New Cars</label>
+            </div>
+            <div>
+                <label><input type="radio" name="car_filter" value="updated" <%= 'checked' if params[:car_filter] == 'updated' %>> Updated Cars</label>
+            </div>
+            <div class="control">
+                <%= submit_tag("Search") %>
+            </div>
+        </div>
+    <% end %>
+    <% @cars.each do |car| %>
+        <% if car.quantity != 0 %>
+            <div class="car-card">
+                <% if car.image.present? %>
+                    <div class="card-image">
+                        <figure class="image">
+                            <%= image_tag car.image, class: 'max-image-size' %>
+                        </figure>
+                    </div>
+                <% end %>
+                <div>
+                    <h3><strong><%= link_to car.name, car_path(car) %></strong></h3>
+                    <h3><%= number_to_currency(car.price) %></h3>
+                </div>
+            </div>
+        <% end %>
+    <% end %>
+</div>

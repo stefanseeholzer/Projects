@@ -1,0 +1,36 @@
+<h1>Checkout</h1>
+
+<%= render partial: 'checkout_table' %>
+
+<form id="addressForm" action="<%= checkout_create_path %>" method="post">
+  <% if @customer %>
+    <div>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" value="<%= @customer.address %>">
+    </div>
+    <div>
+      <label for="province">Province:</label>
+      <%= select_tag :province, options_for_select(@province_abbreviations, @customer.province.abbreviation) %>
+    </div>
+    <button type="submit">Update Address</button>
+  <% else %>
+    <div>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address">
+    </div>
+    <div>
+      <label for="province">Province:</label>
+      <%= select_tag :province, options_for_select(@province_abbreviations, @province_selected) %>
+    </div>
+    <button type="submit">Submit Address/recalculate total</button>
+  <% end %>
+</form>
+
+<form id="addressForm" action="<%= checkout_create_order_path %>" method="post">
+    <input type="hidden" name="province" value="<%= @province_selected %>">
+    <input type="hidden" name="address" value="<%= @address %>">
+    <input type="hidden" name="total" value="<%= @total %>">
+    <input type="hidden" name="taxes" value="<%= (@total / @subtotal) - 1 %>">
+    <button type="submit">Confirm Order</button>
+</form>
+

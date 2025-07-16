@@ -1,0 +1,44 @@
+.max-image-size {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.cars-title{
+    text-align: center;
+}
+
+.car-card{
+    display: flex;
+    border: 2px solid grey;
+    margin: 5px;
+}
+
+.model-card{
+    text-align: center;
+}
+
+.pagination-container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-start{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.shopping_cart{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.shopping_cart a{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 6px;
+    font-size: small;
+}

@@ -1,0 +1,56 @@
+<div class="car-title">
+    <h1><%= @car.name %></h1>
+</div>
+<div class="car-card">
+    <%= render partial: 'shared/car_image', locals: { car: @car }  %>
+    <div>
+        <h3>Description</h3>
+        <p><%= @car.description %></p>
+        <h3>Price</h3>
+        <p><%= @car.price %></p>
+        <h3>Quantity</h3>
+        <p><%= @car.quantity %></p>
+        <% if @car.car_model %>
+            <h3>Make/Model</h3>
+            <p><%= @car.car_model.car_make.name %> <%= @car.car_model.name %></p>
+        <% end %>
+        <% if cart.include?(@car) %>
+            <% max_quantity = session[:shopping_cart].count(@car.id) %>
+            <% if max_quantity != 1 %>
+                <%= form_with(url: cart_path(@car), method: :delete) do %>
+                    <%= hidden_field_tag(:car_id, @car.id)%>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" value="1" min="1" max="<%= max_quantity %>">
+                    <%= submit_tag "Remove quantity from cart ⊖" %>
+                <% end %>
+            <% end %>
+            <%= form_with(url: cart_path(@car), method: :delete) do %>
+                <%= hidden_field_tag(:car_id, @car.id)%>
+                <%= hidden_field_tag(:quantity, max_quantity)%>
+                <%= submit_tag "Remove from cart ⊖" %>
+            <% end %>
+        <% end %>
+        <%= form_with url: cart_index_path, method: :post do %>
+            <%= hidden_field_tag(:car_id, @car.id)%>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1" max=<%= @car.quantity %>>
+            <%= button_tag 'Add to Cart ➕' %>
+        <% end %>
+
+        <div class="shopping-cart">
+            <h3>Shopping Cart</h3>
+            <% if session[:shopping_cart].present? %>
+                <ul>
+                    <% session[:shopping_cart].each do |item_id| %>
+                        <% car = Car.find(item_id) %>
+                            <%= car.name %>
+                    <% end %>
+                </ul>
+            <% else %>
+                <p>Your cart is empty.</p>
+            <% end %>
+        </div>
+
+
+    </div>
+</div>

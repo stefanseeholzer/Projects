@@ -1,0 +1,40 @@
+<nav class="navbar" aria-label="main navigation">
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="<%= cars_path %>">
+        Cars
+      </a>
+      <a class="navbar-item" href="<%= models_path %>">
+        Car Models
+      </a>
+      <a class="navbar-item" href="<%= contact_path %>">
+        Contact
+      </a>
+      <a class="navbar-item" href="<%= about_path %>">
+        About
+      </a>
+      <% if session[:customer_id] %>
+        <a class="navbar-item" href="<%= customer_path(session[:customer_id]) %>">
+          Account Orders
+        </a>
+        <%= form_tag logout_path, method: :delete, autocomplete: nil do %>
+          <%= submit_tag 'Logout' %>
+        <% end %>
+      <% else %>
+        <a class="navbar-item" href="<%= login_path %>">
+          Login
+        </a>
+        <a class="navbar-item" href="<%= signup_path %>">
+          Signup
+        </a>
+      <% end %>
+    </div>
+    <div class="shopping_cart">
+      <% if session[:shopping_cart].size > 0 %>
+        <a class="navbar-item" href="<%= checkout_index_path %>">
+          Checkout (<%= session[:shopping_cart].size %>)
+        </a>
+      <% end %>
+    </div>
+  </div>
+</nav>
