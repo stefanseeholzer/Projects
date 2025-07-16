@@ -1,0 +1,4 @@
+ERROR:root:Error creating box plot: could not convert string to float: 'LegendM'
+ERROR:root:Error creating box plot: could not convert string to float: 'LegendM'
+ERROR:root:Error creating box plot: could not convert string to float: 'LegendM'
+ERROR:root:Error creating box plot: could not convert string to float: 'E'
