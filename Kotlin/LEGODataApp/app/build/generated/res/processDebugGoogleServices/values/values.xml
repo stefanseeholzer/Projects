@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">695595175598</string>
-    <string name="google_api_key" translatable="false">AIzaSyCFg0HelF8Nv-OAVQehv-6lhatp4A0YEIA</string>
-    <string name="google_app_id" translatable="false">1:695595175598:android:afe2a22c60ca29dd3c673f</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCFg0HelF8Nv-OAVQehv-6lhatp4A0YEIA</string>
-    <string name="google_storage_bucket" translatable="false">legodata-347cb.appspot.com</string>
-    <string name="project_id" translatable="false">legodata-347cb</string>
-</resources>
