@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.legodataapp-main-83:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/raw_lego_swoosh.wav.flat",
+        "source": "com.example.legodataapp-main-83:/raw/lego_swoosh.wav"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_block.jpg.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/block.jpg"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_user_icon.png.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/user_icon.png"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/raw_lego_sound_effect.wav.flat",
+        "source": "com.example.legodataapp-main-83:/raw/lego_sound_effect.wav"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/xml_backup_rules.xml.flat",
+        "source": "com.example.legodataapp-main-83:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_logo.png.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_city.jpg.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/city.jpg"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_home_icon.png.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/home_icon.png"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_user_icon2.png.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/user_icon2.png"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_help_icon.png.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/help_icon.png"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_heart_icon.png.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/heart_icon.png"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_qr_scan.xml.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/qr_scan.xml"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_favoritefolder_icon.png.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/favoritefolder_icon.png"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/drawable_people.jpg.flat",
+        "source": "com.example.legodataapp-main-83:/drawable/people.jpg"
+    },
+    {
+        "merged": "com.example.legodataapp-merged_res-81:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.legodataapp-main-83:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]
