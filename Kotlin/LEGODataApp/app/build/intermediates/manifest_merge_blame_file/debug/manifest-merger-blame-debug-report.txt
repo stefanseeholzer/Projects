@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:6:5-67
-11-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:6:22-64
+11-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:6:22-64
 12
 13    <queries>
 13-->[com.auth0.android:auth0:2.11.0] /Users/stefan/.gradle/caches/transforms-3/bdc52b89911cda811fc4e6c7bdcd7b3c/transformed/auth0-2.11.0/AndroidManifest.xml:14:5-22:15
@@ -101,45 +101,45 @@
 54-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/stefan/.gradle/caches/transforms-3/e562b9aa16ef5d0bfc6832b299db4d12/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
 55
 56    <application
-56-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:8:5-28:19
+56-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:8:5-28:19
 57        android:allowBackup="true"
-57-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:9:9-35
+57-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:9:9-35
 58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 58-->[androidx.core:core:1.12.0] /Users/stefan/.gradle/caches/transforms-3/21a4524ef8fb86e5e7a15562c25be68f/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 59        android:dataExtractionRules="@xml/data_extraction_rules"
-59-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:10:9-65
+59-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:10:9-65
 60        android:debuggable="true"
 61        android:extractNativeLibs="false"
 62        android:fullBackupContent="@xml/backup_rules"
-62-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:11:9-54
+62-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:11:9-54
 63        android:icon="@mipmap/ic_launcher"
-63-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:12:9-43
+63-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:12:9-43
 64        android:label="@string/app_name"
-64-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:13:9-41
+64-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:13:9-41
 65        android:roundIcon="@mipmap/ic_launcher_round"
-65-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:14:9-54
+65-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:14:9-54
 66        android:supportsRtl="true"
-66-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:15:9-35
+66-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:15:9-35
 67        android:testOnly="true"
 68        android:theme="@style/Theme.SplashScreen" >
-68-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:16:9-50
+68-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:16:9-50
 69        <activity
-69-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:18:9-27:20
+69-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:18:9-27:20
 70            android:name="com.example.legodataapp.MainActivity"
-70-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:19:13-64
+70-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:19:13-64
 71            android:exported="true"
-71-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:20:13-36
+71-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:20:13-36
 72            android:theme="@style/Theme.SplashScreen" >
-72-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:21:13-54
+72-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:21:13-54
 73            <intent-filter>
-73-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:22:13-26:29
+73-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:22:13-26:29
 74                <action android:name="android.intent.action.MAIN" />
-74-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:23:17-69
-74-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:23:25-66
+74-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:23:17-69
+74-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:23:25-66
 75
 76                <category android:name="android.intent.category.LAUNCHER" />
-76-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:25:17-77
-76-->/Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/AndroidManifest.xml:25:27-74
+76-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:25:17-77
+76-->/Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/AndroidManifest.xml:25:27-74
 77            </intent-filter>
 78        </activity>
 79        <activity

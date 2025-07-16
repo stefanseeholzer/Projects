@@ -74,10 +74,10 @@ com.example.legodataapp-play-services-basement-18.3.0-72 /Users/stefan/.gradle/c
 com.example.legodataapp-ui-tooling-preview-release-73 /Users/stefan/.gradle/caches/transforms-3/f58243d4152e835bf9f6b4907cbab37c/transformed/ui-tooling-preview-release/res
 com.example.legodataapp-annotation-experimental-1.3.0-74 /Users/stefan/.gradle/caches/transforms-3/fa92d69fdc624c66742fda1bdfd0d987/transformed/annotation-experimental-1.3.0/res
 com.example.legodataapp-foundation-release-75 /Users/stefan/.gradle/caches/transforms-3/fc71542ec1fd6f6be49d65669fa6a297/transformed/foundation-release/res
-com.example.legodataapp-res-76 /Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/build/generated/res/processDebugGoogleServices
-com.example.legodataapp-resValues-77 /Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/build/generated/res/resValues/debug
-com.example.legodataapp-packageDebugResources-78 /Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.legodataapp-packageDebugResources-79 /Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.legodataapp-merged_res-80 /Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/build/intermediates/merged_res/debug
-com.example.legodataapp-debug-81 /Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/debug/res
-com.example.legodataapp-main-82 /Users/stefan/Desktop/Projects/Projects/Kotlin/LEGODataApp/app/src/main/res
+com.example.legodataapp-res-76 /Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/build/generated/res/processDebugGoogleServices
+com.example.legodataapp-resValues-77 /Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/build/generated/res/resValues/debug
+com.example.legodataapp-packageDebugResources-78 /Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.legodataapp-packageDebugResources-79 /Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.legodataapp-merged_res-80 /Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/build/intermediates/merged_res/debug
+com.example.legodataapp-debug-81 /Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/debug/res
+com.example.legodataapp-main-82 /Users/stefan/Desktop/RRC/Term 5B/App Dev/Project App/LEGODataApp/app/src/main/res
