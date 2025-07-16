@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com_auth0_scheme">app</string>
+
+    <string name="com_auth0_domain">ADD AUTH0 DOMAIN HERE</string>
+    <string name="com_auth0_client_id">ADD AUTH0 CLIENT ID HERE</string>
+</resources>
